@@ -118,3 +118,13 @@ Best School: 98
 [green@xero 0x00-python-hello_world]$
 ```
 - File: [1-run-inline](./1-run_inline)
+
+### 2. Hello, print
+1. Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+- Use the function `print`
+```
+[green@xero 0x00-python-hello_world]$ ./2-print.py 
+"Programming is like building a multilingual puzzle
+[green@xero 0x00-python-hello_world]$
+```
+- File [2-print.py](./2-print.py)
