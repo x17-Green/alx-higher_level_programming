@@ -89,8 +89,32 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 # Tasks
 ### 0. Run Python file 
+1. Write a Shell script that runs a Python script.
+1. The Python file name will be saved in the environment variable $PYFILE
 ```
-Write a Shell script that runs a Python script.
-The Python file name will be saved in the environment variable $PYFILE
+[green@xero 0x00-python-hello_world]$ cat main.py 
+───────┬─────────────────────────────────────────────────────────────────────────────
+       │ File: main.py
+───────┼─────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ print("Best School")
+───────┴─────────────────────────────────────────────────────────────────────────────
+[green@xero 0x00-python-hello_world]$ export PYFILE=main.py
+[green@xero 0x00-python-hello_world]$ ./0-run 
+Best School
+[green@xero 0x00-python-hello_world]$ 
+
 ```
 - File: [0-run](./0-run)
+  - Test file: [main.py](./main.py)
+
+### 1. Run inline
+1. Write a Shell script that runs Python code.
+1. The Python code will be saved in the environment variable $PYCODE
+```
+[green@xero 0x00-python-hello_world]$ export PYCODE='print(f"Best School: {88+10}")'
+[green@xero 0x00-python-hello_world]$ ./1-run_inline 
+Best School: 98
+[green@xero 0x00-python-hello_world]$
+```
+- File: [1-run-inline](./1-run_inline)
