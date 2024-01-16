@@ -93,4 +93,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 Write a Shell script that runs a Python script.
 The Python file name will be saved in the environment variable $PYFILE
 ```
-- File: [0-run]()
+- File: [0-run](./0-run)
