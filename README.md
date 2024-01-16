@@ -113,3 +113,10 @@ Namespaces are one honking great idea -- let's do more of those!
 
 > Pycodestyle is now the new standard of Python style code
 ![PycodeStyle](./Flyingcircus_2.jpg)
+
+
+# Project Directories
+- Below are the project directories of all tasks.
+- Every directory is significant to a learning module.
+
+### 0. [0x00. Python - Hello, World](/0x00-python-hello_world/README.md)
