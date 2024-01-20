@@ -85,6 +85,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 # Pycodestyle
 
 > Pycodestyle is now the new standard of Python style code
+
 > Your code should use the *pycodestyle* (version 2.8.*)
 
 # Tasks
@@ -120,7 +121,7 @@ Best School: 98
 - File: [1-run-inline](./1-run_inline)
 
 ### 2. Hello, print
-1. Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+> Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 - Use the function `print`
 ```
 [green@xero 0x00-python-hello_world]$ ./2-print.py 
@@ -128,3 +129,19 @@ Best School: 98
 [green@xero 0x00-python-hello_world]$
 ```
 - File [2-print.py](./2-print.py)
+
+### Print integer
+> Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/3-print_number.py) in order to print the integer stored in the variable number, followed by `Battery street`, followed by a new line.
+- You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/3-print_number.py)
+- The output of the script should be:
+  - the number, followed by `Battery street`,
+  - followed by a new line
+- You are not allowed to cast the variable `number` into a string
+- Your code must be 3 lines long
+- You have to use f-strings [tips](https://realpython.com/python-f-strings/)
+```
+[green@xero 0x00-python-hello_world]$ ./3-print_number.py 
+98 Battery street
+[green@xero 0x00-python-hello_world]$
+```
+- File: [3-print_number.py](./3-print_number.py)
