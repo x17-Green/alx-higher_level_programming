@@ -217,6 +217,11 @@ Middle word: olberto
 - You are not allowed to create new variables
 - You are not allowed to use string literals
 ```
+0x00-python-hello_world]$ ./8-concat_edges.py 
+object-oriented programming with Python
+[green@xero 0x00-python-hello_world]$ wc -l 8-concat_edges.py 
+5 8-concat_edges.py
+[green@xero 0x00-python-hello_world]$ 
 ```
 - Solution File: [8-concat_edges.py](./8-concat_edges.py)
 
