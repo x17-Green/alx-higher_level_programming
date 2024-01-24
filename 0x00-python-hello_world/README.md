@@ -209,7 +209,18 @@ Middle word: olberto
 ```
 - Solution File: [7-edges.py](./7-edges.py)
 
-###  
+### 8. Create a new sentence
+> Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/8-concat_edges.py) to print `object-oriented programming with Python`, followed by a new line.
+- You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/8-concat_edges.py)
+- You are not allowed to use any loops or conditional statements
+- Your program should be exactly 5 lines long
+- You are not allowed to create new variables
+- You are not allowed to use string literals
+```
+```
+Solution File: [8-concat_edges.py](./8-concat_edges.py)
+
+
 
 ## Repo info:
 
