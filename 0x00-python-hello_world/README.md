@@ -186,7 +186,9 @@ Holberton
 - You have to use the variables `str1` and `str2` in your new line of code
 - Your program should be exactly 5 lines long
 ```
-
+[green@xero 0x00-python-hello_world]$ ./6-concat.py 
+Welcome to Holberton School!
+[green@xero 0x00-python-hello_world]$ 
 ```
 - Solution File: [ ](./)
 
