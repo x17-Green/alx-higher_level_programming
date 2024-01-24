@@ -106,7 +106,7 @@ Best School
 [green@xero 0x00-python-hello_world]$ 
 
 ```
-- File: [0-run](./0-run)
+- Solution File: [0-run](./0-run)
   - Test file: [main.py](./main.py)
 
 ### 1. Run inline
@@ -118,7 +118,7 @@ Best School
 Best School: 98
 [green@xero 0x00-python-hello_world]$
 ```
-- File: [1-run-inline](./1-run_inline)
+- Solution File: [1-run-inline](./1-run_inline)
 
 ### 2. Hello, print
 > Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
@@ -128,9 +128,9 @@ Best School: 98
 "Programming is like building a multilingual puzzle
 [green@xero 0x00-python-hello_world]$
 ```
-- File [2-print.py](./2-print.py)
+- Solution File [2-print.py](./2-print.py)
 
-### Print integer
+### 3. Print integer
 > Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/3-print_number.py) in order to print the integer stored in the variable number, followed by `Battery street`, followed by a new line.
 - You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/3-print_number.py)
 - The output of the script should be:
@@ -146,7 +146,7 @@ Best School: 98
 ```
 - File: [3-print_number.py](./3-print_number.py)
 
-### Print float
+### 4. Print float
 > Complete the source code in order to print the float stored in the variable `number` with a precision of 2 digits.
 - You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/4-print_float.py)
 - The output of the program should be:
@@ -159,4 +159,19 @@ Best School: 98
 Float: 3.14
 [green@xero 0x00-python-hello_world]$ 
 ```
-- File: [4-print_float.py](./4-print_float.py)
+- Solution File: [4-print_float.py](./4-print_float.py)
+
+### 5. Print string
+> Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/5-print_string.py) in order to print 3 times a string stored in the variable `str`, followed by its first 9 characters.
+- You can find the source code here
+- The output of the program should be:
+  - 3 times the value of `str`
+  - followed by a new line
+  - followed by the 9 first characters of `str`
+  - followed by a new line
+- You are not allowed to use any loops or conditional statement
+- Your program should be maximum 5 lines long
+```
+
+```
+- Solution File: [](./)
