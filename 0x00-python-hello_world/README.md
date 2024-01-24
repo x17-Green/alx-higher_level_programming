@@ -223,7 +223,7 @@ object-oriented programming with Python
 5 8-concat_edges.py
 [green@xero 0x00-python-hello_world]$ 
 ```
-- Solution File: [8-concat_edges.py](./8-concat_edges.py)
+- Solution File: [8-concat_edges.py](./8-concat_edges.py) 
 
 
 
