@@ -218,7 +218,7 @@ Middle word: olberto
 - You are not allowed to use string literals
 ```
 ```
-Solution File: [8-concat_edges.py](./8-concat_edges.py)
+- Solution File: [8-concat_edges.py](./8-concat_edges.py)
 
 
 
