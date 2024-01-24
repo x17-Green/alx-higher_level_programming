@@ -144,7 +144,7 @@ Best School: 98
 98 Battery street
 [green@xero 0x00-python-hello_world]$
 ```
-- File: [3-print_number.py](./3-print_number.py)
+- Solution File: [3-print_number.py](./3-print_number.py)
 
 ### 4. Print float
 > Complete the source code in order to print the float stored in the variable `number` with a precision of 2 digits.
@@ -163,7 +163,7 @@ Float: 3.14
 
 ### 5. Print string
 > Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/5-print_string.py) in order to print 3 times a string stored in the variable `str`, followed by its first 9 characters.
-- You can find the source code here
+- You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/5-print_string.py)
 - The output of the program should be:
   - 3 times the value of `str`
   - followed by a new line
@@ -172,6 +172,9 @@ Float: 3.14
 - You are not allowed to use any loops or conditional statement
 - Your program should be maximum 5 lines long
 ```
-
+[green@xero 0x00-python-hello_world]$ ./5-print_string.py 
+Holberton SchoolHolberton SchoolHolberton School
+Holberton
+[green@xero 0x00-python-hello_world]$ 
 ```
-- Solution File: [ ](./)
+- Solution File: [5-print_string.py](./5-print_string.py)
