@@ -145,3 +145,18 @@ Best School: 98
 [green@xero 0x00-python-hello_world]$
 ```
 - File: [3-print_number.py](./3-print_number.py)
+
+### Print float
+> Complete the source code in order to print the float stored in the variable `number` with a precision of 2 digits.
+- You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/4-print_float.py)
+- The output of the program should be:
+  - `Float:`, followed by the float with only 2 digits
+  - followed by a new line
+- You are not allowed to cast `number` to string
+- You have to use f-strings
+```
+[green@xero 0x00-python-hello_world]$ ./4-print_float.py 
+Float: 3.14
+[green@xero 0x00-python-hello_world]$ 
+```
+- File: [4-print_float.py](./4-print_float.py)
