@@ -7,8 +7,6 @@ For this project, we expect you to look at this concept:
 
 ![meme](/0x00-python-hello_world/meme.jpg)
 
-
-
 ### In a nutshell…
 - Auto QA review: 0.0/89 mandatory & 0.0/27 optional
 - Altogether:  0.0%
@@ -32,6 +30,7 @@ For this project, we expect you to look at this concept:
 ```
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 ```
+
 ## General
 1. Why Python programming is awesome
 1. Who created Python
@@ -83,7 +82,6 @@ At the end of this project, you are expected to be able to explain to anyone, wi
  - All your header files should be include guarded
 
 # Pycodestyle
-
 > Pycodestyle is now the new standard of Python style code
 
 > Your code should use the *pycodestyle* (version 2.8.*)
@@ -225,9 +223,7 @@ object-oriented programming with Python
 ```
 - Solution File: [8-concat_edges.py](./8-concat_edges.py)
 
-
-
 ## Repo info:
 
-- **GitHub repository:** [alx-higher_level_programming](../README.md)
-- **Directory:** [0x00-python-hello_world](./README.md)
+- **GitHub repository:** [alx-higher_level_programming](../)
+- **Directory:** [0x00-python-hello_world](./)
