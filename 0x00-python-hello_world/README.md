@@ -92,12 +92,12 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 1. The Python file name will be saved in the environment variable $PYFILE
 ```
 [green@xero 0x00-python-hello_world]$ cat main.py 
-───────┬─────────────────────────────────────────────────────────────────────────────
+───────┬───────────────────────────────────────
        │ File: main.py
-───────┼─────────────────────────────────────────────────────────────────────────────
+───────┼───────────────────────────────────────
    1   │ #!/usr/bin/python3
    2   │ print("Best School")
-───────┴─────────────────────────────────────────────────────────────────────────────
+───────┴───────────────────────────────────────
 [green@xero 0x00-python-hello_world]$ export PYFILE=main.py
 [green@xero 0x00-python-hello_world]$ ./0-run 
 Best School
