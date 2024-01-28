@@ -225,7 +225,7 @@ object-oriented programming with Python
 
 ### 9. Easter Egg
 > Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
-  - Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)
+  - Your script should be maximum 98 characters long (please check with `wc -m 9-easter_egg.py`)
 ```
 [green@xero 0x00-python-hello_world]$ ./9-easter_egg.py 
 The Zen of Python, by Tim Peters
@@ -253,9 +253,39 @@ Namespaces are one honking great idea -- let's do more of those!
 ```
 - Solution File: [9-easter_egg.py](./9-easter_egg.py)
 
-### 
+### 10. Linked list cycle
+**Technical interview preparation:**
+  - You are not allowed to google anything
+  - Whiteboard first
+  - This task and all future technical interview prep tasks will include checks for the efficiency of your solution, i.e. is your solution’s runtime fast enough, does your solution require extra memory usage / mallocs, etc.
+Write a function in C that checks if a singly linked list has a cycle in it.
+  - Prototype: `int check_cycle(listint_t *list);`
+  - Return: `0` if there is no cycle, `1` if there is a cycle
 
+*Requirements:*
+  - Only these functions are allowed: `write`, `printf`, `putchar`, `puts`, `malloc`, `free`
+```
+[green@xero 0x00-python-hello_world]$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
+[green@xero 0x00-python-hello_world]$ ./cycle 
+1024
+402
+98
+4
+3
+2
+1
+0
+Linked list has no cycle
+Linked list has a cycle
+[green@xero 0x00-python-hello_world]$ 
+```
+- Solution File: [10-check_cycle.c](./10-check_cycle.c)
+- Test files
+  - [10-linked_lists.c](./10-linked_lists.c)
+  - [10-main.c](./10-main.c)
+- Header File: [lists.h](./lists.h)
 
+### 11. 
 
 ## Repo info:
 
