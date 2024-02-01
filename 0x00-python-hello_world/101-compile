@@ -1,5 +1,7 @@
 #!/bin/bash
 
+PYFILE=$PYFILE
+
 if [[ -z "${PYFILE}" ]]; then
     echo "Environment variable PYFILE is not set"
     exit 1
