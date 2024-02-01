@@ -258,6 +258,7 @@ Namespaces are one honking great idea -- let's do more of those!
   - You are not allowed to google anything
   - Whiteboard first
   - This task and all future technical interview prep tasks will include checks for the efficiency of your solution, i.e. is your solution’s runtime fast enough, does your solution require extra memory usage / mallocs, etc.
+
 Write a function in C that checks if a singly linked list has a cycle in it.
   - Prototype: `int check_cycle(listint_t *list);`
   - Return: `0` if there is no cycle, `1` if there is a cycle
@@ -285,7 +286,61 @@ Linked list has a cycle
   - [10-main.c](./10-main.c)
 - Header File: [lists.h](./lists.h)
 
-### 11. 
+### 11. Hello, write
+> Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
+- Use the function write from the sys module
+- You are not allowed to use print
+- Your script should print to stderr
+- Your script should exit with the status code 1
+```
+[green@xero 0x00-python-hello_world]$ ./100-write.py 
+and that piece of art is useful - Dora Korpar, 2015-10-19
+[green@xero 0x00-python-hello_world]$ echo $?
+1
+[green@xero 0x00-python-hello_world]$ ./100-write.py 2> q
+[green@xero 0x00-python-hello_world]$ cat q
+───────┬───────────────────────────────────────────────────────────
+       │ File: q
+───────┼───────────────────────────────────────────────────────────
+   1   │ and that piece of art is useful - Dora Korpar, 2015-10-19
+───────┴───────────────────────────────────────────────────────────
+(base) [green@xero 0x00-python-hello_world]$ 
+```
+- Solution File 1: [100-write.py](./100-write.py)
+- Solution File 2: [q](./q)
+
+### 12. Compile
+> Write a script that compiles a Python script file.
+
+> The Python file name will be stored in the environment variable `$PYFILE`
+
+> The output filename has to be `$PYFILEc` (ex: `export PYFILE=my_main.py` => output filename: `my_main.pyc`)
+```
+[green@xero 0x00-python-hello_world]$ cat main.py
+───────┬────────────────────────────────────────────────────────────
+       │ File: main.py
+───────┼────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ print("Best School")
+───────┴────────────────────────────────────────────────────────────
+[green@xero 0x00-python-hello_world]$ export PYILE=main.py
+[green@xero 0x00-python-hello_world]$ ./101-compile 
+Compiling main.py...
+Done. The compiled file is main.pyc
+[green@xero 0x00-python-hello_world]$ ls
+101-compile  main.py  main.pyc
+[green@xero 0x00-python-hello_world]$ cat main.pyc | zgrep -c "Best School"
+1
+[green@xero 0x00-python-hello_world]$ od -t x1 main.pyc # SYSTEM DEPENDANT => CAN BE DIFFERENT
+0000000 23 21 2f 75 73 72 2f 62 69 6e 2f 70 79 74 68 6f
+0000020 6e 33 0a 70 72 69 6e 74 28 22 42 65 73 74 20 53
+0000040 63 68 6f 6f 6c 22 29 0a
+0000050
+[green@xero 0x00-python-hello_world]$ 
+```
+- Solution FIle: [101-compile](./101-compile)
+  - Test File: [main.py](./main.py)
+- Compiled File: [main.pyc](./main.pyc)
 
 ## Repo info:
 
