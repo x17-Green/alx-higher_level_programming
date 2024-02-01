@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [[ -z "${PYFILE}" ]]; then
+    echo "Environment variable PYFILE is not set"
+    exit 1
+fi
+
+CURRENT_DIR=$(dirname "$(readlink -f "$0")")
+
+if [[ ! -f "${CURRENT_DIR}/${PYFILE}" ]]; then
+    echo "File ${PYFILE} not found in ${CURRENT_DIR}"
+    exit 1
+fi
+
+if [[ ! -f "${CURRENT_DIR}/${PYFILE}c" ]]; then
+    python3 -m py_compile "${CURRENT_DIR}/${PYFILE}"
+fi
+
+echo "Compiling ${PYFILE}..."
+echo "Done. The compiled file is ${PYFILE}c"
