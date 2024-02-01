@@ -16,5 +16,4 @@ if [[ ! -f "${CURRENT_DIR}/${PYFILE}c" ]]; then
     python3 -m py_compile "${CURRENT_DIR}/${PYFILE}"
 fi
 
-echo "Compiling ${PYFILE}..."
-echo "Done. The compiled file is ${PYFILE}c"
+echo "Compiling ${PYFILE} ..."
