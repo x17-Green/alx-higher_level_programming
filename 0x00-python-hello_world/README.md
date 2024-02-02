@@ -359,10 +359,10 @@ Compiling main.py...
              10 BINARY_ADD
              11 RETURN_VALUE
 ```
-  - Tip: [Python bytecode](https://intranet.alxswe.com/rltoken/B38QeZHREbvgq-wY7Ze3vQ)
 - Solution File: [102-magic_calculation.py](./102-magic_calculation.py)
+  - Tip: [Python bytecode](https://intranet.alxswe.com/rltoken/B38QeZHREbvgq-wY7Ze3vQ)
 
-<br>
+<hr>
 
 ## Repo info:
 
