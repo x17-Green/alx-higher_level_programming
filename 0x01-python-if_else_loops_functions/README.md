@@ -137,6 +137,31 @@
     - if the last digit is less than 6 and not 0: the string `and is less than 6 and not 0`
   - followed by a new line
 ```
-
+[green@xero 0x01-python-if_else_loops_functions]$ ./1-last_digit.py 
+Last digit of 2868 is 8 and is greater than 5
+[green@xero 0x01-python-if_else_loops_functions]$ ./1-last_digit.py 
+Last digit of -7412 is -2 and is less than 6 and not 0
+[green@xero 0x01-python-if_else_loops_functions]$ ./1-last_digit.py 
+Last digit of 6524 is 4 and is less than 6 and not 0
+[green@xero 0x01-python-if_else_loops_functions]$ ./1-last_digit.py 
+Last digit of 6822 is 2 and is less than 6 and not 0
+[green@xero 0x01-python-if_else_loops_functions]$ ./1-last_digit.py 
+Last digit of 4230 is 0 and is 0
+[green@xero 0x01-python-if_else_loops_functions]$ ./1-last_digit.py 
+Last digit of 1916 is 6 and is greater than 5
+[green@xero 0x01-python-if_else_loops_functions]$ ./1-last_digit.py 
+Last digit of -7951 is -1 and is less than 6 and not 0
+[green@xero 0x01-python-if_else_loops_functions]$ ./1-last_digit.py 
+Last digit of 3077 is 7 and is greater than 5
+[green@xero 0x01-python-if_else_loops_functions]$ ./1-last_digit.py 
+Last digit of -8720 is 0 and is 0
+[green@xero 0x01-python-if_else_loops_functions]$ ./1-last_digit.py 
+Last digit of -6059 is -9 and is less than 6 and not 0
+[green@xero 0x01-python-if_else_loops_functions]$ ./1-last_digit.py 
+Last digit of -6237 is -7 and is less than 6 and not 0
 ```
-- Solution File: [](./)
+- Solution File: [1-last_digit.py](./1-last_digit.py)
+
+<hr>
+
+### `2.` 
