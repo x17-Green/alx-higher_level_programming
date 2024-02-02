@@ -360,7 +360,7 @@ Compiling main.py...
              11 RETURN_VALUE
 ```
   - Tip: [Python bytecode](https://intranet.alxswe.com/rltoken/B38QeZHREbvgq-wY7Ze3vQ)
-- Solution File: [02-magic_calculation.py](./02-magic_calculation.py)
+- Solution File: [102-magic_calculation.py](./102-magic_calculation.py)
 
 <br>
 
