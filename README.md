@@ -90,4 +90,4 @@ Namespaces are one honking great idea -- let's do more of those!
 <hr>
 
 ### 0x00 [0x00. Python - Hello, World](/0x00-python-hello_world/README.md)
-### 0x01 [ox01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions/README.md)
+### 0x01 [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions/README.md)
