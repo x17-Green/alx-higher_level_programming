@@ -86,7 +86,7 @@
 
 # Tasks
 
-### 0. Positive anything is better than negative nothing 
+### `0.` Positive anything is better than negative nothing 
 > This program will assign a random signed `number` to the variable number each time it is executed. Complete the source code in order to print whether the number stored in the variable `number` is positive or negative.
 
 - You can find the source code [here](https://intranet.alxswe.com/rltoken/e4tR3cjFHqhelf4y485-zQ)
@@ -123,7 +123,7 @@
 
 <hr>
 
-### The last digit
+### `1.` The last digit
 > This program will assign a random signed number to the variable `number` each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable `number`.
 - You can find the source code [here](https://intranet.alxswe.com/rltoken/Vku0ZPFeDPuXUKD8nZ4mOQ)
 - The variable `number` will store a different value every time you will run this program
