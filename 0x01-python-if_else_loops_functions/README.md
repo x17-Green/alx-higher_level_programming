@@ -1,8 +1,11 @@
 # 0x01. Python - if/else, loops, functions
 
 :teacher: By: Guillaume
+
 :gear: Weight: 1
+
 :calendar: Project over - took place from Jan 2, 2024 6:00 AM to Jan 3, 2024 6:00 AM
+
 :ballot_box_with_check: An auto review will be launched at the deadline
 
 ![code](./code.png)
