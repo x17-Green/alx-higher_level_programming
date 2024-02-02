@@ -326,16 +326,23 @@ and that piece of art is useful - Dora Korpar, 2015-10-19
 [green@xero 0x00-python-hello_world]$ export PYILE=main.py
 [green@xero 0x00-python-hello_world]$ ./101-compile 
 Compiling main.py...
-Done. The compiled file is main.pyc
 [green@xero 0x00-python-hello_world]$ ls
 101-compile  main.py  main.pyc
 [green@xero 0x00-python-hello_world]$ cat main.pyc | zgrep -c "Best School"
 1
 [green@xero 0x00-python-hello_world]$ od -t x1 main.pyc # SYSTEM DEPENDANT => CAN BE DIFFERENT
-0000000 23 21 2f 75 73 72 2f 62 69 6e 2f 70 79 74 68 6f
-0000020 6e 33 0a 70 72 69 6e 74 28 22 42 65 73 74 20 53
-0000040 63 68 6f 6f 6c 22 29 0a
-0000050
+0000000 a7 0d 0d 0a 00 00 00 00 96 e0 a5 65 28 00 00 00
+0000020 e3 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00
+0000040 00 00 00 00 00 f3 1c 00 00 00 97 00 02 00 65 00
+0000060 64 00 a6 01 00 00 ab 01 00 00 00 00 00 00 00 00
+0000100 01 00 64 01 53 00 29 02 7a 0b 42 65 73 74 20 53
+0000120 63 68 6f 6f 6c 4e 29 01 da 05 70 72 69 6e 74 a9
+0000140 00 f3 00 00 00 00 fa 07 6d 61 69 6e 2e 70 79 fa
+0000160 08 3c 6d 6f 64 75 6c 65 3e 72 06 00 00 00 01 00
+0000200 00 00 73 1b 00 00 00 f0 03 01 01 01 e0 00 05 80
+0000220 05 80 6d d1 00 14 d4 00 14 d0 00 14 d0 00 14 d0
+0000240 00 14 72 04 00 00 00
+0000247
 [green@xero 0x00-python-hello_world]$ 
 ```
 - Solution FIle: [101-compile](./101-compile)
