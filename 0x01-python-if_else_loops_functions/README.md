@@ -164,4 +164,18 @@ Last digit of -6237 is -7 and is less than 6 and not 0
 
 <hr>
 
-### `2.` 
+### `2.` I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+> Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+- You can only use one `print` function with string format
+- You can only use one loop in your code
+- You are not allowed to store characters in a variable
+- You are not allowed to import any module
+```
+[green@xero 0x01-python-if_else_loops_functions]$ ./2-print_alphabet.py
+abcdefghijklmnopqrstuvwxyz[green@xero 0x01-python-if_else_loops_functions]$ 
+```
+- Solution File: [2-print_alphabet.py](./2-print_alphabet.py)
+
+<hr>
+
+### `3` 
