@@ -178,4 +178,27 @@ abcdefghijklmnopqrstuvwxyz[green@xero 0x01-python-if_else_loops_functions]$
 
 <hr>
 
-### `3` 
+### `3` When I was having that alphabet soup, I never thought that it would pay off
+> Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+- Print all the letters except `q` and `e`
+- You can only use one `print` function with string format
+- You can only use one loop in your code
+- You are not allowed to store characters in a variable
+- You are not allowed to import any module
+```
+[green@xero 0x01-python-if_else_loops_functions]$ ./3-print_alphabt.py 
+abcdfghijklmnoprstuvwxyz[green@xero 0x01-python-if_else_loops_functions]$
+```
+- Solution File: [3-print_alphabt.py](./3-print_alphabt.py)
+
+<hr>
+
+### `4` Hexadecimal printing
+> Write a program that prints all numbers from `0` to `98` in decimal and in hexadecimal (as in the following example)
+- You can only use one `print` function with string format
+- You can only use one loop in your code
+- You are not allowed to store numbers or strings in a variable
+- You are not allowed to import any module
+```
+
+```
