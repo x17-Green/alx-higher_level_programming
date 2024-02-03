@@ -178,7 +178,7 @@ abcdefghijklmnopqrstuvwxyz[green@xero 0x01-python-if_else_loops_functions]$
 
 <hr>
 
-### `3` When I was having that alphabet soup, I never thought that it would pay off
+### `3.` When I was having that alphabet soup, I never thought that it would pay off
 > Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
 - Print all the letters except `q` and `e`
 - You can only use one `print` function with string format
@@ -193,7 +193,7 @@ abcdfghijklmnoprstuvwxyz[green@xero 0x01-python-if_else_loops_functions]$
 
 <hr>
 
-### `4` Hexadecimal printing
+### `4.` Hexadecimal printing
 > Write a program that prints all numbers from `0` to `98` in decimal and in hexadecimal (as in the following example)
 - You can only use one `print` function with string format
 - You can only use one loop in your code
@@ -225,4 +225,20 @@ abcdfghijklmnoprstuvwxyz[green@xero 0x01-python-if_else_loops_functions]$
 97 = 0x61
 98 = 0x62
 [green@xero 0x01-python-if_else_loops_functions]$ 
+```
+- Solution File: [4-print_hexa.py](./4-print_hexa.py)
+
+<hr>
+
+### `5.` 00...99
+> Write a program that prints numbers from `0` to `99`.
+- Numbers must be separated by ,, followed by a space
+- Numbers should be printed in ascending order, with two digits
+- The last number should be followed by a new line
+- You can only use no more than 2 `print` functions with string format
+- You can only use one loop in your code
+- You are not allowed to store numbers or strings in a variable
+- You are not allowed to import any module
+```
+
 ```
