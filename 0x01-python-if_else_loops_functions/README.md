@@ -248,7 +248,7 @@ abcdfghijklmnoprstuvwxyz[green@xero 0x01-python-if_else_loops_functions]$
 
 <hr>
 
-### `6` Inventing is a combination of brains and materials. The more brains you use, the less material you need
+### `6.` Inventing is a combination of brains and materials. The more brains you use, the less material you need
 > Write a program that prints all possible different combinations of two digits.
 - Numbers must be separated by `,`, followed by a space
 - The two digits must be different
@@ -269,7 +269,7 @@ abcdfghijklmnoprstuvwxyz[green@xero 0x01-python-if_else_loops_functions]$
 
 <hr>
 
-### `7` islower
+### `7.` islower
 > Write a function that checks for lowercase character.
 - Prototype: `def islower(c):`
 - Returns `True` if `c` is lowercase
@@ -311,6 +311,60 @@ Alphabet "N" is uppercase
 
 <hr>
 
-### `8` 
+### `8.` To uppercase 
+> Write a function that prints a string in uppercase followed by a new line.
+- Prototype: `def uppercase(str):`
+- You can only use no more than 2 `print` functions with string format
+- You can only use one loop in your code
+- You are not allowed to import any module
+- You are not allowed to use `str.upper()` and `str.isupper()`
+- [Tips: ord()](https://intranet.alxswe.com/rltoken/WglAv9ep-gg2wwo49DYfKg)
 
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+You don’t need to understand `__import__`
+```
+[green@xero 0x01-python-if_else_loops_functions]$ cat 8-main.py 
+───────┬────────────────────────────────────────────────────────────────────────────────────────────────────────
+       │ File: 8-main.py
+───────┼────────────────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ uppercase = __import__('8-uppercase').uppercase
+   3   │ 
+   4   │ uppercase("green")
+   5   │ uppercase("Green Lantern, 41B Baker Street")
+───────┴────────────────────────────────────────────────────────────────────────────────────────────────────────
+[green@xero 0x01-python-if_else_loops_functions]$ ./8-main.py 
+GREEN
+GREEN LANTERN, 41B BAKER STREET
+[green@xero 0x01-python-if_else_loops_functions]$ 
+```
+- Function File: [8-uppercase.py](./8-uppercase.py)
+  - Test Solution File: [8-main.py](./8-main.py)
+
+<hr>
+
+### ` `
+
+```
+
+```
+- Solution File
+
+<hr>
+
+### ` `
+
+```
+
+```
+- Solution File
+
+<hr>
+
+### ` `
+
+```
+
+```
+- Solution File
+
+<hr>
