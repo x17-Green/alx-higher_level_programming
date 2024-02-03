@@ -287,7 +287,7 @@ You don’t need to understand `__import__`
    1   │ #!/usr/bin/python3
    2   │ islower = __import__('7-islower').islower
    3   │ 
-   4 ~ │ print("Alphabet \"g\" is {}" .format(
+   4 ~ │ print("Alphabet \"g\" is {}".format(
    5 ~ │     "lowercase" if islower("g") else "uppercase"))
    6 ~ │ print("Alphabet \"R\" is {}".format(
    7 ~ │     "lowercase" if islower("R") else "uppercase"))
