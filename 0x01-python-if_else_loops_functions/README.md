@@ -272,7 +272,7 @@ abcdfghijklmnoprstuvwxyz[green@xero 0x01-python-if_else_loops_functions]$
 ### `7` islower
 > Write a function that checks for lowercase character.
 - Prototype: `def islower(c):`
-- Returns `#0969DA` `True` if c is lowercase
+- Returns `True` if c is lowercase
 - Returns False otherwise
 - You are not allowed to import any module
 - You are not allowed to use str.upper() and str.isupper()
@@ -306,3 +306,5 @@ Alphabeth "N" is uppercase
 <hr>
 
 ### `8` 
+
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
