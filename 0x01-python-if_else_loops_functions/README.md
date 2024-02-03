@@ -269,4 +269,40 @@ abcdfghijklmnoprstuvwxyz[green@xero 0x01-python-if_else_loops_functions]$
 
 <hr>
 
-### `7` 
+### `7` islower
+> Write a function that checks for lowercase character.
+- Prototype: `def islower(c):`
+- Returns `#0969DA` `True` if c is lowercase
+- Returns False otherwise
+- You are not allowed to import any module
+- You are not allowed to use str.upper() and str.isupper()
+- Tips: ord()
+You don’t need to understand `__import__`
+```
+[green@xero 0x01-python-if_else_loops_functions]$ cat 7-main.py 
+───────┬────────────────────────────────────────────────────────────────────────────────────────────────────────
+       │ File: 7-main.py
+───────┼────────────────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ islower = __import__('7-islower').islower
+   3   │ 
+   4   │ print("Alphabeth \"g\" is {}".format("lowercase" if islower("g") else "uppercase"))
+   5   │ print("Alphabeth \"R\" is {}".format("lowercase" if islower("R") else "uppercase"))
+   6   │ print("Alphabeth \"3\" is {}".format("lowercase" if islower("3") else "uppercase"))
+   7   │ print("Alphabeth \"e\" is {}".format("lowercase" if islower("e") else "uppercase"))
+   8   │ print("Alphabeth \"N\" is {}".format("lowercase" if islower("N") else "uppercase"))
+───────┴────────────────────────────────────────────────────────────────────────────────────────────────────────
+[green@xero 0x01-python-if_else_loops_functions]$ ./7-main.py 
+Alphabeth "g" is lowercase
+Alphabeth "R" is uppercase
+Alphabeth "3" is uppercase
+Alphabeth "e" is lowercase
+Alphabeth "N" is uppercase
+[green@xero 0x01-python-if_else_loops_functions]$ 
+```
+- Function File: [7-islower.py](./7-islower.py)
+  - Test Solution File: [7-main.py](./7-main.py)
+
+<hr>
+
+### `8` 
