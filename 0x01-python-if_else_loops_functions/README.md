@@ -287,18 +287,23 @@ You don’t need to understand `__import__`
    1   │ #!/usr/bin/python3
    2   │ islower = __import__('7-islower').islower
    3   │ 
-   4   │ print("Alphabeth \"g\" is {}".format("lowercase" if islower("g") else "uppercase"))
-   5   │ print("Alphabeth \"R\" is {}".format("lowercase" if islower("R") else "uppercase"))
-   6   │ print("Alphabeth \"3\" is {}".format("lowercase" if islower("3") else "uppercase"))
-   7   │ print("Alphabeth \"e\" is {}".format("lowercase" if islower("e") else "uppercase"))
-   8   │ print("Alphabeth \"N\" is {}".format("lowercase" if islower("N") else "uppercase"))
+   4 ~ │ print("Alphabet \"g\" is {}" .format(
+   5 ~ │     "lowercase" if islower("g") else "uppercase"))
+   6 ~ │ print("Alphabet \"R\" is {}".format(
+   7 ~ │     "lowercase" if islower("R") else "uppercase"))
+   8 ~ │ print("Alphabet \"3\" is {}".format(
+   9 ~ │     "lowercase" if islower("3") else "uppercase"))
+  10 ~ │ print("Alphabet \"e\" is {}".format(
+  11 ~ │     "lowercase" if islower("e") else "uppercase"))
+  12 ~ │ print("Alphabet \"N\" is {}".format(
+  13 ~ │     "lowercase" if islower("N") else "uppercase"))
 ───────┴────────────────────────────────────────────────────────────────────────────────────────────────────────
 [green@xero 0x01-python-if_else_loops_functions]$ ./7-main.py 
-Alphabeth "g" is lowercase
-Alphabeth "R" is uppercase
-Alphabeth "3" is uppercase
-Alphabeth "e" is lowercase
-Alphabeth "N" is uppercase
+Alphabet "g" is lowercase
+Alphabet "R" is uppercase
+Alphabet "3" is uppercase
+Alphabet "e" is lowercase
+Alphabet "N" is uppercase
 [green@xero 0x01-python-if_else_loops_functions]$ 
 ```
 - Function File: [7-islower.py](./7-islower.py)
