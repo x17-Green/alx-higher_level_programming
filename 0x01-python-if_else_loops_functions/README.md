@@ -436,7 +436,7 @@ You don’t need to understand `__import__`
 
 <hr>
 
-### `12` Fizz Buzz
+### `12.` Fizz Buzz
 
 ```
 
@@ -445,7 +445,7 @@ You don’t need to understand `__import__`
 
 <hr>
 
-### ` `
+### `13.`
 
 ```
 
@@ -454,7 +454,7 @@ You don’t need to understand `__import__`
 
 <hr>
 
-### ` `
+### `14.`
 
 ```
 
@@ -463,25 +463,7 @@ You don’t need to understand `__import__`
 
 <hr>
 
-### ` `
-
-```
-
-```
-- Solution File
-
-<hr>
-
-### ` `
-
-```
-
-```
-- Solution File
-
-<hr>
-
-### `15` Remove at position
+### `15.` Remove at position
 > Write a function that creates a copy of the string, removing the character at the position `n` (not the Python way, the “C array index”).
 
     Prototype: `def remove_char_at(str, n):`
@@ -516,7 +498,7 @@ Money
 
 <hr>
 
-### ` `
+### `16.`
 
 ```
 
