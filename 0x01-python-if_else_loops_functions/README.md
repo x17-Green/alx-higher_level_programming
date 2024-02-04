@@ -350,6 +350,73 @@ GREEN LANTERN, 41B BAKER STREET
 
 You don’t need to understand `__import__`
 ```
+[green@xero 0x01-python-if_else_loops_functions]$ cat 9-main.py 
+───────┬────────────────────────────────────────────────────────────────────────────────────────────────────
+       │ File: 9-main.py
+───────┼────────────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ print_last_digit = __import__('9-print_last_digit').print_last_digit
+   3   │ 
+   4   │ print_last_digit(98)
+   5   │ print_last_digit(0)
+   6   │ r = print_last_digit(-1024)
+   7   │ print(r)
+   8   │ 
+───────┴────────────────────────────────────────────────────────────────────────────────────────────────────
+[green@xero 0x01-python-if_else_loops_functions]$ ./9-main.py 
+8044
+[green@xero 0x01-python-if_else_loops_functions]$ 
+```
+- Function File: [9-print_last_digit.py](./9-print_last_digit.py)
+  - Solution Test File: [9-main.py](./9-main.py)
+
+<hr>
+
+### `10.` a + b
+> Write a function that adds two integers and returns the result.
+- Prototype: `def add(a, b):`
+- Returns the value of `a + b`
+- You are not allowed to import any module
+
+You don’t need to understand `__import__`
+```
+
+```
+- Function File: []()
+  - Solution Test File: []()
+
+<hr>
+
+### ` `
+
+```
+
+```
+- Solution File
+
+<hr>
+
+### ` `
+
+```
+
+```
+- Solution File
+
+<hr>
+
+### ` `
+
+```
+
+```
+- Solution File
+
+<hr>
+
+### ` `
+
+```
 
 ```
 - Solution File
