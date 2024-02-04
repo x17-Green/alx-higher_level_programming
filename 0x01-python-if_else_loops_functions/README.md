@@ -380,6 +380,115 @@ You don’t need to understand `__import__`
 
 You don’t need to understand `__import__`
 ```
+[green@xero 0x01-python-if_else_loops_functions]$ cat 10-main.py 
+───────┬────────────────────────────────────────────────────────────────────────────────────────────────────
+       │ File: 10-main.py
+───────┼────────────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/env python3
+   2   │ add = __import__('10-add').add
+   3   │ 
+   4   │ print(add(1, 2))
+   5   │ print(add(98, 0))
+   6   │ print(add(100, -2))
+───────┴────────────────────────────────────────────────────────────────────────────────────────────────────
+[green@xero 0x01-python-if_else_loops_functions]$ ./10-main.py 
+3
+98
+98
+[green@xero 0x01-python-if_else_loops_functions]$ 
+```
+- Function File: [10-add.py](./10-add.py)
+  - Solution Test File: [10-main.py](./10-main.py)
+
+<hr>
+
+### `11.` a ^ b
+> Write a function that computes `a` to the power of `b` and return the value.
+- Prototype: `def pow(a, b):`
+- Returns the value of `a ^ b`
+- You are not allowed to import any module
+
+You don’t need to understand `__import__`
+```
+[green@xero 0x01-python-if_else_loops_functions]$ cat 11-main.py 
+───────┬────────────────────────────────────────────────────────────────────────────────────────────────────
+       │ File: 11-main.py
+───────┼────────────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/env python3
+   2   │ pow = __import__('11-pow').pow
+   3   │ 
+   4   │ print(pow(2, 2))
+   5   │ print(pow(98, 2))
+   6   │ print(pow(98, 0))
+   7   │ print(pow(100, -2))
+   8   │ print(pow(-4, 5))
+───────┴────────────────────────────────────────────────────────────────────────────────────────────────────
+[green@xero 0x01-python-if_else_loops_functions]$ ./11-main.py 
+4
+9604
+1
+0.0001
+-1024
+[green@xero 0x01-python-if_else_loops_functions]$ 
+```
+- Function File: [11-pow.py](./11-pow.py)
+  - Solution Test File: [11-main.py](./11-main.py)
+
+<hr>
+
+### `12` Fizz Buzz
+
+```
+
+```
+- Solution File
+
+<hr>
+
+### ` `
+
+```
+
+```
+- Solution File
+
+<hr>
+
+### ` `
+
+```
+
+```
+- Solution File
+
+<hr>
+
+### ` `
+
+```
+
+```
+- Solution File
+
+<hr>
+
+### ` `
+
+```
+
+```
+- Solution File
+
+<hr>
+### `15` Remove at position
+> Write a function that creates a copy of the string, removing the character at the position `n` (not the Python way, the “C array index”).
+
+    Prototype: `def remove_char_at(str, n):`
+    You are not allowed to import any module
+
+You don’t need to understand `__import__`
+
+```
 [green@xero 0x01-python-if_else_loops_functions]$ cat 101-main.py 
 ───────┬────────────────────────────────────────────────────────────────────────────────────────────────────
        │ File: 101-main.py
@@ -403,51 +512,6 @@ Money
 ```
 - Function File: [101-remove_char_at.py](./101-remove_char_at.py)
   - Solution Test File: [101-main.py](./101-main.py)
-
-<hr>
-
-### ` `
-
-```
-
-```
-- Solution File
-
-<hr>
-
-### ` `
-
-```
-
-```
-- Solution File
-
-<hr>
-
-### ` `
-
-```
-
-```
-- Solution File
-
-<hr>
-
-### ` `
-
-```
-
-```
-- Solution File
-
-<hr>
-
-### ` `
-
-```
-
-```
-- Solution File
 
 <hr>
 
