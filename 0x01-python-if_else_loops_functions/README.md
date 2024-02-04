@@ -380,10 +380,29 @@ You don’t need to understand `__import__`
 
 You don’t need to understand `__import__`
 ```
-
+[green@xero 0x01-python-if_else_loops_functions]$ cat 101-main.py 
+───────┬────────────────────────────────────────────────────────────────────────────────────────────────────
+       │ File: 101-main.py
+───────┼────────────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/env python3
+   2   │ remove_char_at = __import__('101-remove_char_at').remove_char_at
+   3   │ 
+   4   │ print(remove_char_at("Green House", 1))
+   5   │ print(remove_char_at("Peretoru", 2))
+   6   │ print(remove_char_at("I am fun!", 0))
+   7   │ print(remove_char_at("Bank", 10))
+   8   │ print(remove_char_at("Money", -2))
+───────┴────────────────────────────────────────────────────────────────────────────────────────────────────
+[green@xero 0x01-python-if_else_loops_functions]$ ./101-main.py 
+Geen House
+Peetoru
+ am fun!
+Bank
+Money
+[green@xero 0x01-python-if_else_loops_functions]$
 ```
-- Function File: []()
-  - Solution Test File: []()
+- Function File: [101-remove_char_at.py](./101-remove_char_at.py)
+  - Solution Test File: [101-main.py](./101-main.py)
 
 <hr>
 
