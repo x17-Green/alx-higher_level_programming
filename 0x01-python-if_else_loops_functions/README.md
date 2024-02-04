@@ -480,6 +480,7 @@ You don’t need to understand `__import__`
 - Solution File
 
 <hr>
+
 ### `15` Remove at position
 > Write a function that creates a copy of the string, removing the character at the position `n` (not the Python way, the “C array index”).
 
