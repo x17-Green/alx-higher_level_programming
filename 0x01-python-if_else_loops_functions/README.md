@@ -465,7 +465,7 @@ You don’t need to understand `__import__`
 
 <hr>
 
-### `13.`
+### `13.` Insert in sorted linked list 
 **Technical interview preparation:**
 - You are not allowed to google anything
 - Whiteboard first
@@ -594,11 +594,13 @@ Money
 
 <hr>
 
-### `16.`
-
+### `16.` ByteCode -> Python #2 
+> Write the Python function `def magic_calculation(a, b, c):` that does exactly the same as the following Python bytecode:
 ```
 
 ```
-- Solution File
+[tips - ByteCode](https://intranet.alxswe.com/rltoken/BO9a7nq6424lGmtmwyB4cQ)
+
+- Solution File: []()
 
 <hr>
