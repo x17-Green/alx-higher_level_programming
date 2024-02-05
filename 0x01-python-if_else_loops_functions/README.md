@@ -536,7 +536,7 @@ You don’t need to understand `__import__`
 98
 402
 1024
-(base) [green@xero 0x01-python-if_else_loops_functions]$ 
+[green@xero 0x01-python-if_else_loops_functions]$ 
 ```
 - Solution Files 
   - Function: [13-insert_number.c](./13-insert_number.c)
@@ -547,12 +547,17 @@ You don’t need to understand `__import__`
 
 <hr>
 
-### `14.`
-
+### `14.` Smile in the mirror 
+> Write a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (`z` in lowercase and `Y` in uppercase), not followed by a new line.
+- You can only use one `print` function with string format
+- You can only use one loop in your code
+- You are not allowed to store characters in a variable
+- You are not allowed to import any module
 ```
-
+[green@xero 0x01-python-if_else_loops_functions]$ ./100-print_tebahpla.py 
+zYxWvUtSrQpOnMlKjIhGfEdCbA[green@xero 0x01-python-if_else_loops_functions]$ 
 ```
-- Solution File
+- Solution File: [100-print_tebahpla.py](./100-print_tebahpla.py)
 
 <hr>
 
