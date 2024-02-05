@@ -466,11 +466,84 @@ You don’t need to understand `__import__`
 <hr>
 
 ### `13.`
+**Technical interview preparation:**
+- You are not allowed to google anything
+- Whiteboard first
 
+**Write a function in C that inserts a number into a sorted singly linked list.**
+- Prototype: `listint_t *insert_node(listint_t **head, int number);`
+- Return: the address of the new node, or `NULL` if it failed
 ```
-
+[green@xero 0x01-python-if_else_loops_functions]$ cat 13-main.c 
+───────┬────────────────────────────────────────────────────────────────────────────────────
+       │ File: 13-main.c
+───────┼────────────────────────────────────────────────────────────────────────────────────
+   1   │ #include <stdlib.h>
+   2   │ #include <string.h>
+   3   │ #include <stdio.h>
+   4   │ #include "lists.h"
+   5   │ 
+   6   │ /**
+   7   │  * main - check the code for
+   8   │  *
+   9   │  * Return: Always 0.
+  10   │  */
+  11   │ int main(void)
+  12   │ {
+  13   │     listint_t *head;
+  14   │ 
+  15   │     head = NULL;
+  16   │     add_nodeint_end(&head, 0);
+  17   │     add_nodeint_end(&head, 1);
+  18   │     add_nodeint_end(&head, 2);
+  19   │     add_nodeint_end(&head, 3);
+  20   │     add_nodeint_end(&head, 4);
+  21   │     add_nodeint_end(&head, 98);
+  22   │     add_nodeint_end(&head, 402);
+  23   │     add_nodeint_end(&head, 1024);
+  24   │     print_listint(head);
+  25   │ 
+  26   │     printf("-----------------\n");
+  27   │ 
+  28   │     insert_node(&head, 27);
+  29   │ 
+  30   │     print_listint(head);
+  31   │ 
+  32   │     free_listint(head);
+  33   │ 
+  34   │     return (0);
+  35   │ }
+───────┴────────────────────────────────────────────────────────────────────────────────────
 ```
-- Solution File
+```
+[green@xero 0x01-python-if_else_loops_functions]$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 13-main.c linked_lists.c 13-insert_number.c -o insert
+[green@xero 0x01-python-if_else_loops_functions]$ ./insert 
+0
+1
+2
+3
+4
+98
+402
+1024
+-----------------
+0
+1
+2
+3
+4
+27
+98
+402
+1024
+(base) [green@xero 0x01-python-if_else_loops_functions]$ 
+```
+- Solution Files 
+  - Function: [13-insert_number.c](./13-insert_number.c)
+  - Header(.h) File: [lists.h](./lists.h)
+- Test files used
+  - Linked List: [linked_lists.c](./linked_lists.c)
+  - Main: [13-main.c](./13-main.c)
 
 <hr>
 
