@@ -597,10 +597,55 @@ Money
 ### `16.` ByteCode -> Python #2 
 > Write the Python function `def magic_calculation(a, b, c):` that does exactly the same as the following Python bytecode:
 ```
+[green@xero 0x01-python-if_else_loops_functions]$ py -m dis 102-magic_calculation.py 
+  0           0 RESUME                   0
 
+  2           2 LOAD_CONST               0 
+
+(<code object magic_calculation at 0x7f671efd3780, file "102-magic_calculation.py", line 2>)
+
+              4 MAKE_FUNCTION            0
+              6 STORE_NAME               0 (magic_calculation)
+              8 LOAD_CONST               1 (None)
+             10 RETURN_VALUE
+
+Disassembly of <code object magic_calculation at 0x7f671efd3780, file "102-magic_calculation.py", line 2>:
+
+  2           0 RESUME                   0
+
+  3           2 LOAD_FAST                0 (a)
+              4 LOAD_FAST                1 (b)
+              6 COMPARE_OP               0 (<)
+             12 POP_JUMP_FORWARD_IF_FALSE     2 (to 18)
+
+  4          14 LOAD_FAST                2 (c)
+             16 RETURN_VALUE
+
+  5     >>   18 LOAD_FAST                2 (c)
+             20 LOAD_FAST                1 (b)
+             22 COMPARE_OP               4 (>)
+             28 POP_JUMP_FORWARD_IF_FALSE     5 (to 40)
+
+  6          30 LOAD_FAST                0 (a)
+             32 LOAD_FAST                1 (b)
+             34 BINARY_OP                0 (+)
+             38 RETURN_VALUE
+
+  8     >>   40 LOAD_FAST                0 (a)
+             42 LOAD_FAST                1 (b)
+             44 BINARY_OP                5 (*)
+             48 LOAD_FAST                2 (c)
+             50 BINARY_OP               10 (-)
+             54 RETURN_VALUE
+[green@xero 0x01-python-if_else_loops_functions]$ 
 ```
 [tips - ByteCode](https://intranet.alxswe.com/rltoken/BO9a7nq6424lGmtmwyB4cQ)
 
-- Solution File: []()
+- Solution File: [102-magic_calculation.py](./102-magic_calculation.py)
 
 <hr>
+
+## Repo info:
+
+- **GitHub repository:** [alx-higher_level_programming](../)
+- **Directory:** [0x01-python-if_else_loops_functions](./)
