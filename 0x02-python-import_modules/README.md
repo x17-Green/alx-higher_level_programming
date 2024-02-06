@@ -4,7 +4,7 @@
 
 :gear: Weight: 1
 
-:calender: Project over - took place from Jan 4, 2024 6:00 AM to Jan 5, 2024 6:00 AM
+:calendar: Project over - took place from Jan 4, 2024 6:00 AM to Jan 5, 2024 6:00 AM
 
 :ballot_box_with_check: An auto review will be launched at the deadline
 
