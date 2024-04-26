@@ -60,4 +60,38 @@
 - You can only use the word `add_0` once in your code
 - You are not allowed to use `*` for importing or `__import__`
 - Your code should not be executed when imported - by using `__import__`, like the example below
+```
+[green@xero 0x02-python-import_modules]$ cat add_0.py 
+───────┬────────────────────────────────────────────────────────────────────────────────────
+       │ File: add_0.py
+───────┼────────────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ def add(a, b):
+   3   │     return (a + b)
+───────┴────────────────────────────────────────────────────────────────────────────────────
+[green@xero 0x02-python-import_modules]$ ./0-add.py 
+1 + 2 = 3
+[green@xero 0x02-python-import_modules]$ 
 
+```
+- Solution File: [0-add.py](./0-add.py)
+  - Test File: [add_0.py](./add_0.py)
+
+<hr>
+
+### `1.` My first toolbox!
+> Write a program that imports functions from the file `calculator_1.py`, does some Maths, and prints the result.
+- Do not use the function `print` (with string format to display integers) more than 4 times
+- You have to define:
+  - the value `10` to a variable `a`
+  - the value `5` to a variable `b`
+  - and use those two variables only, as arguments when calling functions (including `print`)
+- `a` and `b` must be defined in 2 different lines: `a = 10` and another `b = 5`
+- Your program should call each of the imported functions. See example below for format
+- the word `calculator_1` should be used only once in your file
+- You are not allowed to use `*` for importing or `__import__`
+- Your code should not be executed when imported
+
+```
+
+```
