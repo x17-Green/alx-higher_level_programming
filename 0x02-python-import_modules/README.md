@@ -75,7 +75,7 @@
 
 ```
 - Solution File: [0-add.py](./0-add.py)
-  - Test File: [add_0.py](./add_0.py)
+  - Module File: [add_0.py](./add_0.py)
 
 <hr>
 
@@ -93,5 +93,34 @@
 - Your code should not be executed when imported
 
 ```
-
+[green@xero 0x02-python-import_modules]$ cat calculator_1.py 
+───────┬───────────────────────────────────────────────────────────────────────────────────────────
+       │ File: calculator_1.py
+───────┼───────────────────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ def add(a, b):
+   3   │     return (a + b)
+   4   │ 
+   5   │ 
+   6   │ def sub(a, b):
+   7   │     return (a - b)
+   8   │ 
+   9   │ 
+  10   │ def mul(a, b):
+  11   │     return (a * b)
+  12   │ 
+  13   │ 
+  14   │ def div(a, b):
+  15   │     return int(a / b)
+───────┴───────────────────────────────────────────────────────────────────────────────────────────
+[green@xero 0x02-python-import_modules]$ ./1-calculation.py 
+10 + 5 = 15
+10 - 5 = 5
+10 * 5 = 50
+10 / 5 = 2
+[green@xero 0x02-python-import_modules]$
 ```
+- Solution File: [1-calculation.py](./1-calculation.py)
+  - Module File: [calculator_1.py](./calculator_1.py)
+
+<hr>
