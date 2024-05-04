@@ -191,6 +191,12 @@ Remember how you did (or did not) do it in C? `#pythoniscool`
 - Your code should not be executed when imported
 - Make sure you are running your code in Python3.8.x (`hidden_4.pyc` has been compiled with this version)
 ```
+[green@xero 0x02-python-import_modules]$ curl -Lso "hidden_4.pyc" "https://github.com/alx-tools/0x02.py/raw/master/hidden_4.pyc"
+[green@xero 0x02-python-import_modules]$ ./4-hidden_discovery.py | sort
+my_secret_santa
+print_hidden
+print_school
+[green@xero 0x02-python-import_modules]$ 
 
 ```
-- Solution File: [](./)
+- Solution File: [4-hidden_discovery.py](./4-hidden_discovery.py)
