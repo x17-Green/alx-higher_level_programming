@@ -197,6 +197,5 @@ my_secret_santa
 print_hidden
 print_school
 [green@xero 0x02-python-import_modules]$ 
-
 ```
 - Solution File: [4-hidden_discovery.py](./4-hidden_discovery.py)
