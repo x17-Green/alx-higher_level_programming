@@ -199,3 +199,18 @@ print_school
 [green@xero 0x02-python-import_modules]$ 
 ```
 - Solution File: [4-hidden_discovery.py](./4-hidden_discovery.py)
+
+<hr>
+
+### `5.` Everything can be imported
+> Write a program that imports the variable `a` from the file `variable_load_5.py` and prints its value.
+- You are not allowed to use `*` for importing or `__import__`
+- Your code should not be executed when imported
+```
+
+```
+- Solution File: [5-variable_load.py](./5-variable_load.py)
+
+<hr>
+
+### ``
