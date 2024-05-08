@@ -647,5 +647,5 @@ Disassembly of <code object magic_calculation at 0x7f671efd3780, file "102-magic
 
 ## Repo info:
 
-- **GitHub repository:** [alx-higher_level_programming](../)
+- **GitHub repository:** [alx-higher_level_programming](../README.md)
 - **Directory:** [0x01-python-if_else_loops_functions](./)

@@ -366,5 +366,16 @@ Disassembly of <code object magic_calculation at 0x7f003b224df0, file "102-magic
   - any string literal
   - any system calls
 ```
-
+[green@xero 0x02-python-import_modules]$ ./103-fast_alphabet.py 
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+[green@xero 0x02-python-import_modules]$ wc -l 103-fast_alphabet.py 
+3 103-fast_alphabet.py
+[green@xero 0x02-python-import_modules]$ 
 ```
+- Solution File: [103-fast_alphabet.py](./103-fast_alphabet.py)
+
+<hr>
+
+### Repo Info:
+- **GitHub repository:** [alx-higher_level_programming](../README.md)
+- **Directory:** [0x02-python-import_modules](./)
