@@ -218,7 +218,6 @@ print_school
 [green@xero 0x02-python-import_modules]$ ./5-variable_load.py 
 98
 [green@xero 0x02-python-import_modules]$ 
-
 ```
 - Solution File: [5-variable_load.py](./5-variable_load.py)
 
@@ -283,6 +282,89 @@ Unknown operator. Available operators: +, -, * and /
 - Your program should be maximum 2 lines long
 - You are not allowed to use `print` or `eval` or `open` or `import sys` in your file `101-easy_print.py`
 ```
+[green@xero 0x02-python-import_modules]$ ./101-easy_print.py 
+#pythoniscool
+[green@xero 0x02-python-import_modules]$
+```
+- Solution File: [101-easy_print.py](./101-easy_print.py)
 
+<hr>
+
+### `8.` ByteCode -> Python #3
+> Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
+```
+(<code object magic_calculation at 0x7f003b224df0, file "102-magic_calculation.py", line 2>)
+              2 LOAD_CONST               1 ('magic_calculation')
+              4 MAKE_FUNCTION            0
+              6 STORE_NAME               0 (magic_calculation)
+              8 LOAD_CONST               2 (None)
+             10 RETURN_VALUE
+
+
+Disassembly of <code object magic_calculation at 0x7f003b224df0, file "102-magic_calculation.py", line 2>:
+  3           0 LOAD_CONST               1 (0)
+              2 LOAD_CONST               2 (('add', 'sub'))
+              4 IMPORT_NAME              0 (magic_calculation_102)
+              6 IMPORT_FROM              1 (add)
+              8 STORE_FAST               2 (add)
+             10 IMPORT_FROM              2 (sub)
+             12 STORE_FAST               3 (sub)
+             14 POP_TOP
+
+  4          16 LOAD_FAST                0 (a)
+             18 LOAD_FAST                1 (b)
+             20 COMPARE_OP               0 (<)
+             22 POP_JUMP_IF_FALSE       64
+
+  5          24 LOAD_FAST                2 (add)
+             26 LOAD_FAST                0 (a)
+             28 LOAD_FAST                1 (b)
+             30 CALL_FUNCTION            2
+             32 STORE_FAST               4 (c)
+
+  6          34 LOAD_GLOBAL              3 (range)
+             36 LOAD_CONST               3 (4)
+             38 LOAD_CONST               4 (6)
+             40 CALL_FUNCTION            2
+             42 GET_ITER
+        >>   44 FOR_ITER                14 (to 60)
+             46 STORE_FAST               5 (i)
+
+  7          48 LOAD_FAST                2 (add)
+             50 LOAD_FAST                4 (c)
+             52 LOAD_FAST                5 (i)
+             54 CALL_FUNCTION            2
+             56 STORE_FAST               4 (c)
+             58 JUMP_ABSOLUTE           44
+
+  8     >>   60 LOAD_FAST                4 (c)
+             62 RETURN_VALUE
+
+ 10     >>   64 LOAD_FAST                3 (sub)
+             66 LOAD_FAST                0 (a)
+             68 LOAD_FAST                1 (b)
+             70 CALL_FUNCTION            2
+             72 RETURN_VALUE
+```
+- Solution File: [102-magic_calculation.py](./102-magic_calculation.py)
+  - Compilation Command: 
+      ```
+      [green@xero 0x02-python-import_modules]$ py -m dis 102-magic_calculation.py
+      ```
+  - Python Version: `Python 3.8.5`
+  - OS: `XeroLinux-KDE (Arch)`
+
+<hr>
+
+### `9.` Fast alphabet 
+> Write a program that prints the alphabet in uppercase, followed by a new line.
+- Your program should be maximum 3 lines long
+- You are not allowed to use:
+  - any loops
+  - any conditional statements
+  - `str.join()`
+  - any string literal
+  - any system calls
 ```
 
+```
