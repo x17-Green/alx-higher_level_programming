@@ -92,7 +92,7 @@
 
 <hr>
 
-### `1` Secure access to an element in a list
+### `1.` Secure access to an element in a list
 > Write a function that retrieves an element from a list like in C.
 - Prototype: `def element_at(my_list, idx):`
 - If `idx` is negative, the function should return `None`
