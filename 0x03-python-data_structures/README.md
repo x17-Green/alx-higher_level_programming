@@ -87,8 +87,18 @@
 5
 [green@xero 0x03-python-data_structures]$ 
 ```
-- Solution File: []()
+- Solution File: [0-print_list_integer.py](./0-print_list_integer.py)
+  - Test File: [0-main.py](./0-main.py)
 
 <hr>
 
-### 
+### `1` Secure access to an element in a list
+> Write a function that retrieves an element from a list like in C.
+- Prototype: `def element_at(my_list, idx):`
+- If `idx` is negative, the function should return `None`
+- If `idx` is out of range (> of number of element in `my_list`), the function should return `None`
+- You are not allowed to import any module
+- You are not allowed to use `try/except`
+```
+
+```
