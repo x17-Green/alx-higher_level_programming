@@ -130,7 +130,30 @@ Element at index 3 is 4
 - You are not allowed to import any module
 - You are not allowed to use `try/except`
 ```
-
+[green@xero 0x03-python-data_structures]$ cat 2-main.py 
+───────┬─────────────────────────────────────────────────────────────────────
+       │ File: 2-main.py
+───────┼─────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ replace_in_list = __import__('2-replace_in_list').replace_in_list
+   3   │ 
+   4   │ my_list = [1, 2, 3, 4, 5]
+   5   │ idx = 3
+   6   │ new_element = 9
+   7   │ new_list = replace_in_list(my_list, idx, new_element)
+   8   │ 
+   9   │ print(new_list)
+  10   │ print(my_list)
+  11   │ 
+───────┴─────────────────────────────────────────────────────────────────────
+[green@xero 0x03-python-data_structures]$ ./2-main.py 
+[1, 2, 3, 9, 5]
+[1, 2, 3, 9, 5]
+[green@xero 0x03-python-data_structures]$ 
 ```
-- Solution File: []()
-  - Test File: []()
+- Solution File: [2-replace_in_list.py](./2-replace_in_list.py)
+  - Test File: [2-main.py](./2-main.py)
+
+<hr>
+
+### `3.`
