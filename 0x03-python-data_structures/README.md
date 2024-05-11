@@ -100,5 +100,37 @@
 - You are not allowed to import any module
 - You are not allowed to use `try/except`
 ```
+[green@xero 0x03-python-data_structures]$ cat 1-main.py 
+───────┬─────────────────────────────────────────────────────────────────────
+       │ File: 1-main.py
+───────┼─────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ element_at = __import__('1-element_at').element_at
+   3   │ 
+   4   │ my_list = [1, 2, 3, 4, 5]
+   5   │ idx = 3
+   6   │ print("Element at index {:d} is {}".format(idx, element_at(my_list, 
+       │ idx)))
+   7   │ 
+───────┴─────────────────────────────────────────────────────────────────────
+[green@xero 0x03-python-data_structures]$ ./1-main.py 
+Element at index 3 is 4
+[green@xero 0x03-python-data_structures]$ 
+```
+- Solution File: [1-element_at.py](./1-element_at.py)
+  - Test File: [1-main.py](./1-main.py)
+
+<hr>
+
+### `2.` Replace element
+> Write a function that replaces an element of a list at a specific position (like in C).
+- Prototype: `def replace_in_list(my_list, idx, element):`
+- If `idx` is negative, the function should not modify anything, and returns the original list
+- If `idx` is out of range (> of number of element in `my_list`), the function should not modify anything, and returns the original list
+- You are not allowed to import any module
+- You are not allowed to use `try/except`
+```
 
 ```
+- Solution File: []()
+  - Test File: []()
