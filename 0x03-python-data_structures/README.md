@@ -69,7 +69,23 @@
 - You are not allowed to cast integers into strings
 - You have to use `str.format()` to print integers
 ```
-
+[green@xero 0x03-python-data_structures]$ cat 0-main.py 
+───────┬───────────────────────────────────────────────────────────────────────────────────
+       │ File: 0-main.py
+───────┼───────────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ print_list_integer = __import__('0-print_list_integer').print_list_integer
+   3   │ 
+   4   │ my_list = [1, 2, 3, 4, 5]
+   5   │ print_list_integer(my_list)
+───────┴───────────────────────────────────────────────────────────────────────────────────
+[green@xero 0x03-python-data_structures]$ ./0-main.py 
+1
+2
+3
+4
+5
+[green@xero 0x03-python-data_structures]$ 
 ```
 - Solution File: []()
 
