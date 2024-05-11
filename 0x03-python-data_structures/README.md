@@ -156,4 +156,5 @@ Element at index 3 is 4
 
 <hr>
 
-### `3.`
+### `3.` Print a list of integers... in reverse! 
+> 
