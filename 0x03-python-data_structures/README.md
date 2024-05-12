@@ -87,7 +87,7 @@
 5
 [green@xero 0x03-python-data_structures]$ 
 ```
-- Solution File: [0-print_list_integer.py](./0-print_list_integer.py)
+- Function File: [0-print_list_integer.py](./0-print_list_integer.py)
   - Test File: [0-main.py](./0-main.py)
 
 <hr>
@@ -117,7 +117,7 @@
 Element at index 3 is 4
 [green@xero 0x03-python-data_structures]$ 
 ```
-- Solution File: [1-element_at.py](./1-element_at.py)
+- Function File: [1-element_at.py](./1-element_at.py)
   - Test File: [1-main.py](./1-main.py)
 
 <hr>
@@ -151,7 +151,7 @@ Element at index 3 is 4
 [1, 2, 3, 9, 5]
 [green@xero 0x03-python-data_structures]$ 
 ```
-- Solution File: [2-replace_in_list.py](./2-replace_in_list.py)
+- Function File: [2-replace_in_list.py](./2-replace_in_list.py)
   - Test File: [2-main.py](./2-main.py)
 
 <hr>
@@ -165,10 +165,28 @@ Element at index 3 is 4
 - You are not allowed to cast integers into strings
 - You have to use `str.format()` to print integers
 ```
-
+[green@xero 0x03-python-data_structures]$ cat 3-main.py 
+───────┬─────────────────────────────────────────────────────────────────────
+       │ File: 3-main.py
+───────┼─────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ print_reversed_list_integer = __import__('3-print_reversed_list_inte
+       │ ger').print_reversed_list_integer
+   3   │ 
+   4   │ my_list = [100, 200, 300, 400, 500]
+   5   │ print_reversed_list_integer(my_list)
+   6   │ 
+───────┴─────────────────────────────────────────────────────────────────────
+[green@xero 0x03-python-data_structures]$ ./3-main.py 
+500
+400
+300
+200
+100
+[green@xero 0x03-python-data_structures]$ 
 ```
-- Solution File: []()
-  - Test File: []()
+- Function File: [3-print_reversed_list_integer.py](./3-print_reversed_list_integer.py)
+  - Test File: [3-main.py](./3-main.py)
 
 <hr>
 
