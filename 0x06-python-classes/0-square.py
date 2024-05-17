@@ -6,4 +6,6 @@
 
 
 class Square():
+    """An empty class Square that defines a Square
+    """
     pass
