@@ -19,3 +19,4 @@ class Square():
         Instantiation with size (no type/value verification)
         """
         self._size = size
+my_square = Square()
