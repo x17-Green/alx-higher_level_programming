@@ -6,7 +6,7 @@
 
 :ballot_box_with_check: An auto review will be launched at the deadline
 
-![](../memes/oop-meme.jpg)
+![oop-meme](../memes/oop-meme.jpg)
 
 # Background Context
 > OOP is a totally new concept for all of you (especially those who think they know about it :)). It’s VERY important that you read at least all the material that is listed bellow (and skip what we recommend you to skip, you will see them later in the curriculum).
@@ -71,3 +71,85 @@
 
 # More info
 Documentation is now mandatory! Each module, class, and method must contain docstring as comments. [Example Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+
+# Tasks
+
+### `0.` My first square 
+> Write an empty class `Square` that defines a square:
+- You are not allowed to import any module
+Write an empty class Square that defines a square:
+
+    You are not allowed to import any module
+```
+[green@xero 0x06-python-classes]$ cat 0-main.py 
+───────┬─────────────────────────────────────────────────────────────────────────────────────
+       │ File: 0-main.py
+───────┼─────────────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ Square = __import__('0-square').Square
+   3   │ 
+   4   │ my_square = Square()
+   5   │ print(type(my_square))
+   6   │ print(my_square.__dict__)
+───────┴─────────────────────────────────────────────────────────────────────────────────────
+[green@xero 0x06-python-classes]$ ./0-main.py 
+<class '0-square.Square'>
+{}
+[green@xero 0x06-python-classes]$ 
+```
+- Solution File: [0-square.py](./0-main.py)
+
+<hr>
+
+### `1.` Square with size
+> Write a class `Square` that defines a square by: (based on `0-square.py`)
+- Private instance attribute: `size`
+- Instantiation with `size` (no type/value verification)
+- You are not allowed to import any module
+
+> Why?
+
+- Why size is private attribute?
+
+> The size of a square is crucial for a square, many things depend of it (area computation, etc.), so you, as class builder, must control the type and value of this attribute. One way to have the control is to keep it privately. You will see in next tasks how to get, update and validate the size value.
+```
+[green@xero 0x06-python-classes]$ cat 1-main.py 
+───────┬─────────────────────────────────────────────────────────────────────────────────────
+       │ File: 1-main.py
+───────┼─────────────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ Square = __import__('1-square').Square
+   3   │ 
+   4   │ my_square = Square(3)
+   5   │ print(type(my_square))
+   6   │ print(my_square.__dict__)
+   7   │ 
+   8   │ try:
+   9   │     print(my_square.size)
+  10   │ except Exception as e:
+  11   │     print(e)
+  12   │ 
+  13   │ try:
+  14   │     print(my_square.__size)
+  15   │ except Exception as e:
+  16   │     print(e)
+───────┴─────────────────────────────────────────────────────────────────────────────────────
+[green@xero 0x06-python-classes]$ ./1-main.py
+<class '1-square.Square'>
+{'_size': 3}
+'Square' object has no attribute 'size'
+'Square' object has no attribute '__size'
+[green@xero 0x06-python-classes]$ 
+```
+<hr>
+
+### `2.` Size validation 
+> Write a class `Square` that defines a square by: (based on `1-square.py`)
+- Private instance attribute: `size`
+- Instantiation with optional `size`: `def __init__(self, size=0):`
+  - `size` must be an integer, otherwise raise a `TypeError` exception with the message `size must be an integer`
+  - if `size` is less than `0`, raise a `ValueError` exception with the message `size must be >= 0`
+- You are not allowed to import any module
+```
+
+```
