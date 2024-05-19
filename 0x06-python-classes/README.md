@@ -151,5 +151,54 @@ Write an empty class Square that defines a square:
   - if `size` is less than `0`, raise a `ValueError` exception with the message `size must be >= 0`
 - You are not allowed to import any module
 ```
-
+[green@xero 0x06-python-classes]$ cat 2-main.py 
+───────┬───────────────────────────────────────────────────────────────────────────────────────────────
+       │ File: 2-main.py
+───────┼───────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ #!/usr/bin/python3
+   2   │ Square = __import__('2-square').Square
+   3   │ 
+   4   │ my_square_1 = Square(3)
+   5   │ print(type(my_square_1))
+   6   │ print(my_square_1.__dict__)
+   7   │ 
+   8   │ my_square_2 = Square()
+   9   │ print(type(my_square_2))
+  10   │ print(my_square_2.__dict__)
+  11   │ 
+  12   │ try:
+  13   │     print(my_square_1.size)
+  14   │ except Exception as e:
+  15   │     print(e)
+  16   │ 
+  17   │ try:
+  18   │     print(my_square_1.__size)
+  19   │ except Exception as e:
+  20   │     print(e)
+  21   │ 
+  22   │ try:
+  23   │     my_square_3 = Square("3")
+  24   │     print(type(my_square_3))
+  25   │     print(my_square_3.__dict__)
+  26   │ except Exception as e:
+  27   │     print(e)
+  28   │ 
+  29   │ try:
+  30   │     my_square_4 = Square(-89)
+  31   │     print(type(my_square_4))
+  32   │     print(my_square_4.__dict__)
+  33   │ except Exception as e:
+  34   │     print(e)
+───────┴───────────────────────────────────────────────────────────────────────────────────────────────
+[green@xero 0x06-python-classes]$ ./2-main.py 
+<class '2-square.Square'>
+{'_size': 3}
+<class '2-square.Square'>
+{'_size': 0}
+'Square' object has no attribute 'size'
+'Square' object has no attribute '__size'
+size must be an integer
+size must be >= 0
+[green@xero 0x06-python-classes]$
 ```
+- Solution File: [2-square.py](./2-main.py)
