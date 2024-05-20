@@ -141,6 +141,8 @@ Write an empty class Square that defines a square:
 'Square' object has no attribute '__size'
 [green@xero 0x06-python-classes]$ 
 ```
+- Solution File: [1-square.py](./1-square.py)
+
 <hr>
 
 ### `2.` Size validation 
@@ -202,3 +204,5 @@ size must be >= 0
 [green@xero 0x06-python-classes]$
 ```
 - Solution File: [2-square.py](./2-main.py)
+
+<hr>
