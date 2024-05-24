@@ -206,3 +206,40 @@ size must be >= 0
 - Solution File: [2-square.py](./2-main.py)
 
 <hr>
+
+### `3.` Area of a square
+
+
+<hr>
+
+### `4.` Access and update private attribute
+
+
+<hr>
+
+### `5.` Printing a square 
+
+
+<hr>
+
+### `6.` Coordinates of a square
+
+
+<hr>
+
+### `7.` Singly linked list
+
+
+<hr>
+
+### `8.` Print Square instance
+
+
+<hr>
+
+### `9.` Compare 2 squares 
+
+
+<hr>
+
+### `10.` ByteCode -> Python #5
