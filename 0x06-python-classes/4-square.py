@@ -20,19 +20,19 @@
 class Square():
 
     def __init__(self, size=0):
-        self._size = size
+        self.__size = size
         if type(size) is not int:
             raise TypeError("Size must be an integer")
         elif size < 0:
             raise TypeError("size must be >= 0")
 
     def area(self):
-        return self._size * self._size
+        return self.__size * self._size
 
     @property
     def size(self):
-        return self._size
+        return self.__size
 
     @size.setter
     def size(self, value):
-        self._size = value
+        self.__size = value
